@@ -26,3 +26,15 @@ h2 {
   text-transform: uppercase;
   padding: 20px;
 }
+
+.content-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-img img {
+  width: 539px;
+  height: 447px;
+}
