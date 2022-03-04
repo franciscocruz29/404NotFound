@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+/* font-family: 'Space Mono', monospace; */
+
 /* Best way to setup a new project */
 * { 
   margin: 0;
@@ -8,4 +12,17 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 20px;
 }
