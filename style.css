@@ -46,6 +46,7 @@ h2 {
   font-size: 24px;
   font-family: 'Space Mono', monospace;
   margin-top: 30px;
+  width: 385px;
 }
 
 button {
@@ -56,4 +57,31 @@ button {
   font-size: 14px;
   font-weight: 700;
   padding: 23px 43px;
+}
+
+footer {
+  margin-top: 120px;
+  text-align: center;
+  padding: 20px;
+  color: #BDBDBD;
+}
+
+@media screen and (max-width: 480px){
+  .content-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content-info h1 {
+    font-size: 40px;
+  }
+
+  .content-info p {
+    font-size: 18px;
+  }
+
+  .content-img img{
+    width: 286px;
+    height: 238px;
+  }
 }
